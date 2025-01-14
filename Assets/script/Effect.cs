@@ -1,0 +1,22 @@
+using UnityEngine;
+
+public class Effect : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void EffectEnd()
+    {
+        Debug.Log("¿Ã∆Â∆Æ ¡æ∑·");
+        gameObject.SetActive(false);
+    }
+}
